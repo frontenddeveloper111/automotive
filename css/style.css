@@ -1,0 +1,275 @@
+@font-face {
+  font-family: PTserif;
+  src: url(../fonts/PTSerif.ttf)
+}
+body {
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+.menu__inner {
+  display: flex;
+  margin: 25px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.nav li a {
+  border-radius: 7px;
+  text-decoration: none;
+  font-size: 19px;
+  font-family:sans-serif;
+  font-weight: 250;
+  padding: 9px 16px;
+  transition: 0.4s;
+  color: #fff;
+}
+.menu {
+  background-image: url(../Layer1.png);
+  padding-top: 40px;
+  padding-bottom: 50px;
+  background-size: cover;
+}
+.nav li a:hover {
+  background-color: #000033;
+  border-radius: 7px;
+}
+.menu__title {
+  font-size: 90px;
+  margin-top: 120px;
+  font-family: sans-serif;
+    color: rgb(19, 14, 39);
+    font-weight: bold;
+    text-align: left;
+    width: 600px;
+}
+.menu__title2 {
+  font-size: 90px;
+  font-family: sans-serif;
+    color: #fff;
+    font-weight: bold;
+    text-align: left;
+    width: 600px;
+}
+.menu__text {
+    font-size: 20px;
+    font-family: "PT Serif" sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    width: 500px;
+    padding-bottom: 50px;
+    margin-top: 70px;
+    line-height: 28px;
+}
+.info__inner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.text {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+  line-height: 28px;
+  margin-top: 40px;
+  margin: 40px 20px;
+}
+.text2 {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.img__inner2 {
+  margin-bottom: 30px;
+}
+.info__title_g {
+  text-align: left;
+  display: flex;
+}
+.info__title {
+  margin: 0 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 58px;
+  color: red;
+  margin-top: 40px;
+  margin-bottom: 110px;
+}
+.info__title2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  font-size: 58px;
+  margin-top: 40px;
+}
+.info_ {
+  margin-top: 60px;
+  background-color: #130e27;
+  width: 1860px;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+.text4 {
+  font-family: sans-serif;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  margin-left: 400px;
+  max-width: 680px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.text_title {
+  font-size: 30px;
+  background-color: #f26b41;
+  border-radius: 7px;
+  font-family: sans-serif;
+  color:#fff;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-right: 300px;
+  padding: 12px 25px;
+  transition: 0.3s;
+
+}
+.item4 {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.text_title:hover {
+  cursor: pointer;
+  background-color: orangered;
+}
+.abc {
+  text-decoration: none;
+  color: #fff;
+}
+.item {
+  text-align: center;
+}
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+.team {
+  background-color: #f3f3f3;
+}
+.team__inner {
+  text-align: center;
+}
+.team__title {
+  text-align: center;
+  font-size: 50px;
+  font-family: sans-serif;
+  padding-top: 40px;
+  margin-bottom: 20px;
+}
+.team__line {
+  width: 184px;
+  height: 3px;
+  margin: 0 auto;
+}
+.team__text {
+  max-width: 510px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  line-height: 22px;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 55px;
+  padding-bottom: 80px;
+}
+.items {
+  margin: 0px 20px;
+  padding: 45px 45px;
+  min-width: 210px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px 0px rgba(0, 1, 1, 0.2);
+}
+.item__title {
+  text-align: center;
+  font-size: 22px;
+  line-height: 28px;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+}
+.item__text {
+  margin-top: 30px;
+  line-height: 20px;
+  max-width: 200px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.item__titles {
+  margin-bottom: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 60px;
+  color: #c62314;
+}
+.knopka3 {
+  text-decoration: none;
+  color: #fff;
+}
+.knopka1 {
+  text-decoration: none;
+  color: #fff;
+}
+.knopka2 {
+  text-decoration: none;
+  color: #fff;
+}
+.knopka {
+  margin-top: 60px;
+  font-size: 23px;
+  background-color: #c62314;
+  color: #fff;
+  border-radius: 4px;
+  padding: 10px 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.knopka4 {
+  margin-top: 81px;
+  font-size: 23px;
+  background-color: #c62314;
+  color: #fff;
+  border-radius: 4px;
+  padding: 10px 30px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.knopka:hover {
+  background-color: blue;
+}
+.knopka4:hover {
+  background-color: blue;
+  transition: 0.5s;
+}
+.footer {
+  display: flex;
+  padding-bottom: 50px;
+  background-color: #130e27;
+  padding-top: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.text__footer {
+  font-family: PTserif;
+  font-size: 20px;
+  margin-right: 100px;
+}
